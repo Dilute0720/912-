@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构/数组.md",
+                "file": "算法/动态规划.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据结构/数组.md",
+                "file": "算法/动态规划.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据结构/数组.md",
+                "file": "算法/动态规划.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据结构/数组.md"
+                "file": "算法/动态规划.md"
               }
             }
           }
@@ -162,8 +162,9 @@
   },
   "active": "7b4714cffc3595f4",
   "lastOpenFiles": [
-    "算法/动态规划.md",
+    "README.md",
     "数据结构/数组.md",
+    "算法/动态规划.md",
     "高等数学错题本/函数 极限 连续.md",
     "高等数学错题本/导数与微分.md",
     "操作系统/内存管理/未命名.md",
