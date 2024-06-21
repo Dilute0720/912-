@@ -1,0 +1,189 @@
+{
+  "main": {
+    "id": "5e029e84dcf3a991",
+    "type": "split",
+    "children": [
+      {
+        "id": "1715036321034b19",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3b62844112930b16",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "数据结构/数组.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7b4714cffc3595f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "数据结构/数组.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6df0543ebd5ed813",
+    "type": "split",
+    "children": [
+      {
+        "id": "3d3a6290384a47e6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e3961be7b35ca075",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "839630046051b513",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9bba9a756930ef6b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "42ac0aa0382324c9",
+    "type": "split",
+    "children": [
+      {
+        "id": "0d79abe64ccd4c1d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5c650992cad0a477",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "数据结构/数组.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dd181affce4d05a6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "数据结构/数组.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d05a25d4bfc74c14",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e36a667dc1485f8e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "数据结构/数组.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "7b4714cffc3595f4",
+  "lastOpenFiles": [
+    "算法/动态规划.md",
+    "数据结构/数组.md",
+    "高等数学错题本/函数 极限 连续.md",
+    "高等数学错题本/导数与微分.md",
+    "操作系统/内存管理/未命名.md",
+    "操作系统/内存管理/BrainStorm.md",
+    "算法",
+    "未命名 1",
+    "操作系统/内存管理/页表.md",
+    "数据结构",
+    "操作系统/内存管理",
+    "操作系统",
+    "高等数学错题本/attachments/sinx泰勒展开.png",
+    "高等数学错题本/attachments/三角函数等价无穷小.png",
+    "高等数学错题本/attachments/Pasted image 20240301122252.png",
+    "高等数学错题本/attachments",
+    "Pasted image 20240301120233.png",
+    "attachments/Pasted image 20240301122225.png",
+    "attachments",
+    "Pasted image 20240301122140.png",
+    "Pasted image 20240301122042.png",
+    "Pasted image 20240301120210.png",
+    "高等数学错题本"
+  ]
+}
