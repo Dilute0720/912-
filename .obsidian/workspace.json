@@ -26,14 +26,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/动态规划.md",
+                "file": "数据结构/数组.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d49b42c52cdd2f64",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "数据结构/链表.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0798fee7323eb45f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "数据结构/链表.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -99,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/动态规划.md",
+                "file": "数据结构/链表.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法/动态规划.md",
+                "file": "数据结构/链表.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法/动态规划.md"
+                "file": "数据结构/链表.md"
               }
             }
           }
@@ -160,11 +184,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7b4714cffc3595f4",
+  "active": "0798fee7323eb45f",
   "lastOpenFiles": [
-    "README.md",
-    "数据结构/数组.md",
+    "数据结构/指针.md",
+    "算法/排序算法.md",
     "算法/动态规划.md",
+    "数据结构/链表.md",
+    "数据结构/数组.md",
+    "README.md",
     "高等数学错题本/函数 极限 连续.md",
     "高等数学错题本/导数与微分.md",
     "操作系统/内存管理/未命名.md",
