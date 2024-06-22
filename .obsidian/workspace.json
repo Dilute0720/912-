@@ -8,32 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3b62844112930b16",
+            "id": "2f25186e73a9749a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构/1.数组.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7b4714cffc3595f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "数据结构/3.栈与队列.md",
+                "file": "数据结构/4.树.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据结构/3.栈与队列.md",
+                "file": "数据结构/4.树.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据结构/3.栈与队列.md",
+                "file": "数据结构/4.树.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据结构/3.栈与队列.md"
+                "file": "数据结构/4.树.md"
               }
             }
           }
@@ -160,11 +146,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7b4714cffc3595f4",
+  "active": "2f25186e73a9749a",
   "lastOpenFiles": [
-    "数据结构/2.链表.md",
-    "数据结构/1.数组.md",
+    "算法/红黑树.md",
+    "数据结构/4.树.md",
     "数据结构/3.栈与队列.md",
+    "数据结构/1.数组.md",
+    "数据结构/2.链表.md",
     "数据结构/0.指针.md",
     "数据结构/1指针.md",
     "算法/动态规划.md",
