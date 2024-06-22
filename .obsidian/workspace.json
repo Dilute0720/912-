@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构/数组.md",
+                "file": "数据结构/1.数组.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -26,38 +26,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构/数组.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d49b42c52cdd2f64",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "数据结构/链表.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0798fee7323eb45f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "数据结构/链表.md",
+                "file": "数据结构/3.栈与队列.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据结构/链表.md",
+                "file": "数据结构/3.栈与队列.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据结构/链表.md",
+                "file": "数据结构/3.栈与队列.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据结构/链表.md"
+                "file": "数据结构/3.栈与队列.md"
               }
             }
           }
@@ -184,13 +160,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "0798fee7323eb45f",
+  "active": "7b4714cffc3595f4",
   "lastOpenFiles": [
-    "数据结构/指针.md",
-    "算法/排序算法.md",
+    "数据结构/2.链表.md",
+    "数据结构/1.数组.md",
+    "数据结构/3.栈与队列.md",
+    "数据结构/0.指针.md",
+    "数据结构/1指针.md",
     "算法/动态规划.md",
-    "数据结构/链表.md",
-    "数据结构/数组.md",
+    "算法/排序算法.md",
     "README.md",
     "高等数学错题本/函数 极限 连续.md",
     "高等数学错题本/导数与微分.md",
