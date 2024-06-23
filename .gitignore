@@ -1,0 +1,4 @@
+Code/**/*.vcxproj
+Code/**/*.vcxproj.*
+Code/**/*.sln
+Code/**/*.vs
