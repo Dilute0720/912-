@@ -69,8 +69,10 @@ private:
     // TreeNode结构体定义
     struct TreeNode {
         T value;
+        TreeNode* parent;
         TreeNode* left;
         TreeNode* right;
+
         TreeNode(T val) : value(val), left(nullptr), right(nullptr) {}
     };
 };

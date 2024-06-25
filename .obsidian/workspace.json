@@ -120,7 +120,7 @@
             }
           },
           {
-            "id": "e36a667dc1485f8e",
+            "id": "892d8d844af5eee0",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -129,25 +129,27 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "2f25186e73a9749a",
+  "active": "892d8d844af5eee0",
   "lastOpenFiles": [
+    "数据结构/4.树.md",
     "README.md",
     "算法/红黑树.md",
     "算法/动态规划.md",
@@ -155,7 +157,6 @@
     "操作系统/内存管理/BrainStorm.md",
     "操作系统/内存管理/页表.md",
     "操作系统/内存管理/未命名.md",
-    "数据结构/4.树.md",
     "数据结构/3.栈与队列.md",
     "高等数学错题本/attachments/sinx泰勒展开.png",
     "数据结构/1.数组.md",
