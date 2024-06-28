@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "1715036321034b19",
+        "id": "6850326c1ab9fc0f",
         "type": "tabs",
         "children": [
           {
-            "id": "2f25186e73a9749a",
+            "id": "db825937c43a6e8d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构/4.树.md",
+                "file": "算法/排序算法.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f08bef1f8bd6ca79",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "算法/有序查找.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据结构/4.树.md",
+                "file": "算法/有序查找.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据结构/4.树.md",
+                "file": "算法/有序查找.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据结构/4.树.md"
+                "file": "算法/有序查找.md"
               }
             }
           }
@@ -134,7 +147,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,13 +161,20 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "892d8d844af5eee0",
+  "active": "f08bef1f8bd6ca79",
   "lastOpenFiles": [
-    "数据结构/4.树.md",
-    "README.md",
-    "算法/红黑树.md",
-    "算法/动态规划.md",
     "算法/排序算法.md",
+    "算法/有序查找.md",
+    "函数对象C++.md",
+    "数据结构/5.图.md",
+    "数据结构/4.树.md",
+    "算法/红黑树.md",
+    "资源.md",
+    "算法/多项式求和.md",
+    "算法/串匹配算法.md",
+    "数据结构/4.串.md",
+    "README.md",
+    "算法/动态规划.md",
     "操作系统/内存管理/BrainStorm.md",
     "操作系统/内存管理/页表.md",
     "操作系统/内存管理/未命名.md",
