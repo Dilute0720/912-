@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "f08bef1f8bd6ca79",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "算法/有序查找.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "42ac0aa0382324c9",
@@ -98,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/有序查找.md",
+                "file": "算法/排序算法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法/有序查找.md",
+                "file": "算法/排序算法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法/有序查找.md"
+                "file": "算法/排序算法.md"
               }
             }
           }
@@ -161,20 +149,20 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "f08bef1f8bd6ca79",
+  "active": "db825937c43a6e8d",
   "lastOpenFiles": [
     "算法/排序算法.md",
+    "算法/串匹配算法.md",
+    "算法/动态规划.md",
+    "算法/多项式求和.md",
+    "算法/红黑树.md",
     "算法/有序查找.md",
     "函数对象C++.md",
     "数据结构/5.图.md",
     "数据结构/4.树.md",
-    "算法/红黑树.md",
     "资源.md",
-    "算法/多项式求和.md",
-    "算法/串匹配算法.md",
     "数据结构/4.串.md",
     "README.md",
-    "算法/动态规划.md",
     "操作系统/内存管理/BrainStorm.md",
     "操作系统/内存管理/页表.md",
     "操作系统/内存管理/未命名.md",
