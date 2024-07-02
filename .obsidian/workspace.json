@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6850326c1ab9fc0f",
+        "id": "bae49287c87d04e6",
         "type": "tabs",
         "children": [
           {
-            "id": "db825937c43a6e8d",
+            "id": "dff97e0662628216",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/排序算法.md",
+                "file": "数据结构/3.栈与队列.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/排序算法.md",
+                "file": "数据结构/3.栈与队列.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法/排序算法.md",
+                "file": "数据结构/3.栈与队列.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法/排序算法.md"
+                "file": "数据结构/3.栈与队列.md"
               }
             }
           }
@@ -149,27 +149,31 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "db825937c43a6e8d",
+  "active": "dff97e0662628216",
   "lastOpenFiles": [
+    "数据结构/attachments/不同优先级处理方案.png",
+    "数据结构/attachments/优先级表.png",
+    "数据结构/attachments",
     "算法/排序算法.md",
-    "算法/串匹配算法.md",
-    "算法/动态规划.md",
     "算法/多项式求和.md",
+    "算法/动态规划.md",
+    "数据结构/2.链表.md",
+    "资源.md",
+    "README.md",
+    "算法/列表.md",
+    "算法/串匹配算法.md",
     "算法/红黑树.md",
     "算法/有序查找.md",
     "函数对象C++.md",
     "数据结构/5.图.md",
     "数据结构/4.树.md",
-    "资源.md",
     "数据结构/4.串.md",
-    "README.md",
     "操作系统/内存管理/BrainStorm.md",
     "操作系统/内存管理/页表.md",
     "操作系统/内存管理/未命名.md",
     "数据结构/3.栈与队列.md",
     "高等数学错题本/attachments/sinx泰勒展开.png",
     "数据结构/1.数组.md",
-    "数据结构/2.链表.md",
     "数据结构/0.指针.md",
     "数据结构/1指针.md",
     "高等数学错题本/函数 极限 连续.md",
