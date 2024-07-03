@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构/3.1 逆波兰式.md",
+                "file": "数据结构/4. 树.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "42ac0aa0382324c9",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据结构/3.1 逆波兰式.md",
+                "file": "数据结构/4. 树.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据结构/3.1 逆波兰式.md",
+                "file": "数据结构/4. 树.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据结构/3.1 逆波兰式.md"
+                "file": "数据结构/4. 树.md"
               }
             }
           }
@@ -134,8 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -150,13 +150,16 @@
   },
   "active": "dff97e0662628216",
   "lastOpenFiles": [
+    "数据结构/attachments/先序+后序重构满二叉树.png",
+    "数据结构/attachments/中序遍历.png",
+    "数据结构/attachments/先序遍历.png",
+    "数据结构/3. 栈与队列.md",
+    "数据结构/3.1 逆波兰式.md",
     "数据结构/5. 图.md",
     "数据结构/4. 树.md",
-    "数据结构/3.1 逆波兰式.md",
     "数据结构/0. 指针.md",
     "数据结构/1. 数组.md",
     "数据结构/2. 链表.md",
-    "数据结构/3. 栈与队列.md",
     "数据结构/attachments/不同优先级处理方案.png",
     "数据结构/attachments/优先级表.png",
     "数据结构/attachments",
@@ -190,8 +193,6 @@
     "attachments/Pasted image 20240301122225.png",
     "attachments",
     "Pasted image 20240301122140.png",
-    "Pasted image 20240301122042.png",
-    "Pasted image 20240301120210.png",
     "高等数学错题本"
   ]
 }
