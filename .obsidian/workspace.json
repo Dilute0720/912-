@@ -11,8 +11,12 @@
             "id": "7d3c255f67a46d7e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "算法/排序算法.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 219.5
   },
   "right": {
     "id": "42ac0aa0382324c9",
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "算法/排序算法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "算法/排序算法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "算法/排序算法.md"
+              }
             }
           }
         ],
@@ -142,6 +150,7 @@
   },
   "active": "7d3c255f67a46d7e",
   "lastOpenFiles": [
+    "算法/attachments/双旋重平衡操作.png",
     "数据结构/4. 树.md",
     "README.md",
     "算法/排序算法.md",
