@@ -13,13 +13,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/排序算法.md",
+                "file": "算法/红黑树.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "222b46aca3980553",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "数据结构/5. 图.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "215a5f8391a3b268",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "数据结构/6. 词典.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9a38e27177a54733",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "计算机组成原理/编码与码制.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -85,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/排序算法.md",
+                "file": "计算机组成原理/编码与码制.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法/排序算法.md",
+                "file": "计算机组成原理/编码与码制.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法/排序算法.md"
+                "file": "计算机组成原理/编码与码制.md"
               }
             }
           }
@@ -148,17 +185,21 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "7d3c255f67a46d7e",
+  "active": "9a38e27177a54733",
   "lastOpenFiles": [
+    "数据结构/6. 词典.md",
+    "计算机组成原理/编码与码制.md",
+    "计算机组成原理",
+    "数据结构/5. 图.md",
+    "算法/排序算法.md",
+    "算法/伸展树.md",
+    "算法/红黑树.md",
     "算法/attachments/双旋重平衡操作.png",
     "数据结构/4. 树.md",
     "README.md",
-    "算法/排序算法.md",
     "算法/attachments/二叉搜索树删除节点_同时存在左右子树.png",
     "算法/attachments",
-    "算法/红黑树.md",
     "数据结构/二叉搜索树.md",
-    "数据结构/5. 图.md",
     "数据结构/attachments/先序+后序重构满二叉树.png",
     "数据结构/attachments/中序遍历.png",
     "数据结构/attachments/先序遍历.png",
@@ -183,8 +224,6 @@
     "操作系统/内存管理/未命名.md",
     "高等数学错题本/attachments/sinx泰勒展开.png",
     "数据结构/1指针.md",
-    "高等数学错题本/函数 极限 连续.md",
-    "高等数学错题本/导数与微分.md",
     "算法",
     "未命名 1",
     "数据结构",
@@ -193,8 +232,6 @@
     "高等数学错题本/attachments/三角函数等价无穷小.png",
     "高等数学错题本/attachments/Pasted image 20240301122252.png",
     "高等数学错题本/attachments",
-    "Pasted image 20240301120233.png",
-    "attachments",
-    "高等数学错题本"
+    "attachments"
   ]
 }
