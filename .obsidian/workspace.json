@@ -4,47 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fe58ab93494914cf",
+        "id": "d852a779d0c7765c",
         "type": "tabs",
         "children": [
           {
-            "id": "7d3c255f67a46d7e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "算法/红黑树.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "222b46aca3980553",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "数据结构/5. 图.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "215a5f8391a3b268",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "数据结构/6. 词典.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9a38e27177a54733",
+            "id": "0bd44bd928549daa",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -54,9 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "947b56fc8286914c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "计算机组成原理/处理器-最简单的手搓CPU教程.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机组成原理/编码与码制.md",
+                "file": "计算机组成原理/处理器-最简单的手搓CPU教程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机组成原理/编码与码制.md",
+                "file": "计算机组成原理/处理器-最简单的手搓CPU教程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -162,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机组成原理/编码与码制.md"
+                "file": "计算机组成原理/处理器-最简单的手搓CPU教程.md"
               }
             }
           }
@@ -171,8 +147,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,15 +160,17 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "9a38e27177a54733",
+  "active": "947b56fc8286914c",
   "lastOpenFiles": [
-    "数据结构/6. 词典.md",
     "计算机组成原理/编码与码制.md",
-    "计算机组成原理",
+    "计算机组成原理/处理器-最简单的手搓CPU教程.md",
+    "未命名",
+    "算法/红黑树.md",
     "数据结构/5. 图.md",
+    "数据结构/6. 词典.md",
+    "计算机组成原理",
     "算法/排序算法.md",
     "算法/伸展树.md",
-    "算法/红黑树.md",
     "算法/attachments/双旋重平衡操作.png",
     "数据结构/4. 树.md",
     "README.md",
@@ -223,7 +200,6 @@
     "操作系统/内存管理/页表.md",
     "操作系统/内存管理/未命名.md",
     "高等数学错题本/attachments/sinx泰勒展开.png",
-    "数据结构/1指针.md",
     "算法",
     "未命名 1",
     "数据结构",
@@ -231,7 +207,6 @@
     "操作系统",
     "高等数学错题本/attachments/三角函数等价无穷小.png",
     "高等数学错题本/attachments/Pasted image 20240301122252.png",
-    "高等数学错题本/attachments",
-    "attachments"
+    "高等数学错题本/attachments"
   ]
 }
