@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机组成原理/处理器-最简单的手搓CPU教程.md",
+                "file": "计算机组成原理/单周期MIPS处理器-最简单的手搓CPU教程.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "df527f1d1a6ec42e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "计算机组成原理/单周期MIPS处理器-最简单的手搓CPU教程.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机组成原理/处理器-最简单的手搓CPU教程.md",
+                "file": "计算机组成原理/单周期MIPS处理器-最简单的手搓CPU教程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机组成原理/处理器-最简单的手搓CPU教程.md",
+                "file": "计算机组成原理/单周期MIPS处理器-最简单的手搓CPU教程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机组成原理/处理器-最简单的手搓CPU教程.md"
+                "file": "计算机组成原理/单周期MIPS处理器-最简单的手搓CPU教程.md"
               }
             }
           }
@@ -160,10 +172,14 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "947b56fc8286914c",
+  "active": "df527f1d1a6ec42e",
   "lastOpenFiles": [
+    "计算机组成原理/多周期MIPS处理器.md",
+    "计算机组成原理/单周期MIPS处理器-最简单的手搓CPU教程.md",
+    "计算机组成原理/attachments/扩展跳转指令的数据通路.png",
+    "计算机组成原理/attachments/MIPS单周期处理器简要数据通路.png",
+    "计算机组成原理/attachments",
     "计算机组成原理/编码与码制.md",
-    "计算机组成原理/处理器-最简单的手搓CPU教程.md",
     "未命名",
     "算法/红黑树.md",
     "数据结构/5. 图.md",
@@ -198,15 +214,11 @@
     "数据结构/4.串.md",
     "操作系统/内存管理/BrainStorm.md",
     "操作系统/内存管理/页表.md",
-    "操作系统/内存管理/未命名.md",
     "高等数学错题本/attachments/sinx泰勒展开.png",
     "算法",
     "未命名 1",
     "数据结构",
     "操作系统/内存管理",
-    "操作系统",
-    "高等数学错题本/attachments/三角函数等价无穷小.png",
-    "高等数学错题本/attachments/Pasted image 20240301122252.png",
-    "高等数学错题本/attachments"
+    "操作系统"
   ]
 }
