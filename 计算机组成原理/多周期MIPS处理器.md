@@ -11,8 +11,6 @@
 
 正如我们最初提到的例子一般, 每一个指令都可以更普遍的划分为: IF(取指) ID(指令译码) EX(指令执行) MEM(存储访问) WB(写回)
 
-![[五阶段划分的指令.png]]
-
 ## 流水线构想
 
 ### 洗衣房的例子
@@ -33,7 +31,7 @@
 
 #### 结构冒险: Structural Hazard
 
-考虑这样的一个例子:![[指令流水线_01.png]]
+考虑这样的一个例子:![[结构冒险_01.png]]
 
 如果我们紧接着加入第四条指令, 那么在600~800ns的时间里第一条指令还在进行存储器的数据访问, 而第四条指令的取值单元已经开始向存储器发送取指令的信号, 传入PC地址, 这样就会导致硬件结构上的冲突, 称为结构冒险.
 
@@ -54,4 +52,91 @@
 当预测正确(分支未发生)时, 流水线会全速的执行, 只有当分支发生是流水线才会阻塞. 当然预测错误也有一些代价, 这段时间里被误读入的数据和错误更改的pc需要单独的处理. 
 
 ### 流水线数据通路
+
+![[流水线时间轴.png]]
+
+上图是一个流水线指令执行过程示意图, 像这样流水线执行三条指令的情况, 最直观的解决方案是给每个硬件设计三倍数量的端口, 采用类似"轮询"的方式让数据依次访问端口, 这样的直接后果是成本提升, 控制信号过于复杂. 如果我们共用数据通路, 又可能会发生后一条指令的输出干扰前一条指令的情况. 所以我们需要使用流水线寄存器来分割不同阶段, 确保每个阶段可以独立工作，不受其他阶段的干扰。
+
+![[五阶段划分方案.png]]
+
+上图是我们所设计的单周期处理器的数据通路图, 在每一个clk(时钟周期)中信号自左至右依次改变. 要将其改成5个阶段的流水线, 我们需要在上图中四个虚线处加入流水线寄存器. 
+
+流水线寄存器中存放的内容为指令内容+前一部分硬件生成的结果和信号线. 每个时钟周期只需要同步更新至每一个流水线寄存器即可.
+
+![[流水线寄存器.png]]
+
+
+#### IF/ID寄存器
+
+取指令阶段, PC自增并写回PC寄存器以备下一个clk使用. 此时尚不知道待执行的指令具体是什么, 有可能使用当前的PC地址(比如分支/跳转指令), 因而我们要将PC+4这个地址和PC地址对应的32位指令一并存入IF/ID寄存器.
+
+```verilog
+module IF_ID_Reg(
+	input wire clk,
+	input wire reset,
+	input wire pc[31:0],
+	input wire next_pc[31:0],
+	output reg instr[31:0],
+	output reg pc_out[31:0],
+	input wire controls[?]
+)
+```
+
+#### ID/EX寄存器
+
+指令译码后, 对R型指令我们会读取两个寄存器的值, 对I型指令我们需要16位符号扩展后的32位数, 同时IF/ID寄存器中留下的PC+4的值我们依旧要保留下来, 
+
+Q?:为什么要保留呢? 为什么要给IF/ID寄存器多设定32位而不能直接把PC+4放到ID/EX寄存器?(既然ID阶段并没有使用这个地址)
+
+A: 这是为了保证数据自左向右流动的同步性, 五阶段的划分尽可能的适应了"短板效应" 也就是尽可能提升最慢阶段的速率. 与其让PC+4放在后续阶段去执行, 不如趁取指运算量少的时候一并计算, 代价仅仅是多使用了32位的一个寄存器, 这与提升流水线整体效率而言收益是可观的.
+
+```verilog
+module ID_EX_Reg(
+	input wire clk,
+	input wire reset,
+	input wire pc[31:0],
+	input wire RsData[31:0],
+	input wire RtData[31:0],
+	input wire ImmExterned[31:0], 
+	output reg BaseAddr[31:0],
+	output reg Alu_input_a[31:0],
+	output reg Alu_input_b[31:0],
+	output reg ImmExterned_o[31:0],
+	input wire controls[?]
+)
+```
+
+#### EX/MEM寄存器
+
+和上述的分析过程非常类似, EX_MEM寄存器要保留ALU的计算结果(EX阶段产出)和Store Word指令需要传递的寄存器数据RsData. 同时在EX阶段计算完毕的地址计算结果可以直接从EX/MEM寄存器跳过MEM和WB阶段直接写回PC.
+
+```verilog
+module EX_MEM_Reg(
+	input wire clk,
+	input wire reset,
+	input wire Addr_in[31:0],
+	input wire zero,
+	input wire ALU_ans[31:0],
+	input wire RsData_in[31:0],
+	output reg Addr_out[31:0],
+	output reg zero_out,
+	output reg ALU_out[31:0],
+	output reg Data_out[31:0]
+)
+```
+
+#### MEM/WB寄存器
+
+这部分的寄存器主要存储LoadWord指令从存储器中取出来的值以及ALU运算后等待写回寄存器的结果. 由于写回只能一次写回一个数据, 我们可以在这段寄存器后集成一个多路选择器, 当当前指令为LoadWord指令时输出MEM_data, 否则一律输出ALU_data.
+
+```verilog
+module MEM_WB_Reg(
+	input wire clk,
+	input wire reset,
+	input wire MEM_data_in[31:0],
+	input wire ALU_data_in[31:0],
+	input wire control,
+	output reg WriteBack_data[31:0]
+)
+```
 

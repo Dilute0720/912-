@@ -5,5 +5,5 @@
   "attachmentFolderPath": "./attachments",
   "alwaysUpdateLinks": true,
   "showLineNumber": true,
-  "showRibbon": true
+  "showRibbon": false
 }
