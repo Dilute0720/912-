@@ -18,18 +18,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "4a44a6ae513e4416",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "计算机组成原理/单周期MIPS处理器-最简单的手搓CPU教程.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ]
       }
@@ -81,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.5
+    "width": 219.5,
+    "collapsed": true
   },
   "right": {
     "id": "42ac0aa0382324c9",
@@ -146,7 +135,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -161,27 +151,29 @@
   },
   "active": "df527f1d1a6ec42e",
   "lastOpenFiles": [
-    "计算机组成原理/attachments/流水线寄存器.png",
+    "计算机组成原理/attachments/流水线全家福.png",
+    "计算机组成原理/未命名.md",
     "计算机组成原理/多周期MIPS处理器.md",
+    "数据结构/5. 图.md",
+    "数据结构/4. 树.md",
     "计算机组成原理/单周期MIPS处理器-最简单的手搓CPU教程.md",
+    "数据结构/6. 词典.md",
+    "计算机组成原理/attachments/数据冒险_旁路解决方案.png",
+    "计算机组成原理/attachments/Pasted image 20240724160815.png",
+    "计算机组成原理/attachments/流水线完整数据通路.png",
+    "计算机组成原理/attachments/流水线寄存器.png",
     "计算机组成原理/编码与码制.md",
     "计算机组成原理/attachments/流水线时间轴.png",
     "数据结构/3. 栈与队列.md",
-    "数据结构/4. 树.md",
     "数据结构/0. 指针.md",
     "计算机组成原理/attachments/五阶段划分方案.png",
     "计算机组成原理/attachments/结构冒险_01.png",
     "计算机组成原理/attachments/数据冒险_bypassing.png",
     "计算机组成原理/attachments/Pasted image 20240718212536.png",
     "计算机组成原理/attachments/数据冒险_bypassing.png",
-    "计算机组成原理/attachments/指令流水线_01.png",
-    "计算机组成原理/attachments/五阶段划分的指令.png",
-    "计算机组成原理/attachments/扩展跳转指令的数据通路.png",
     "计算机组成原理/attachments",
     "未命名",
     "算法/红黑树.md",
-    "数据结构/5. 图.md",
-    "数据结构/6. 词典.md",
     "计算机组成原理",
     "算法/排序算法.md",
     "算法/伸展树.md",
@@ -200,7 +192,6 @@
     "算法/有序查找.md",
     "函数对象C++.md",
     "数据结构/4.串.md",
-    "操作系统/内存管理/BrainStorm.md",
     "算法",
     "未命名 1",
     "数据结构",
