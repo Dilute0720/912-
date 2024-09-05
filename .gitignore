@@ -2,3 +2,4 @@ Code/**/*.vcxproj
 Code/**/*.vcxproj.*
 Code/**/*.sln
 Code/**/*.vs
+Code/**/x64
